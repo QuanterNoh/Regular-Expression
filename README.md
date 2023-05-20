@@ -13,9 +13,6 @@ python에서는 re 모듈을 불러와 정규 표현식을 처리할 수 있습�
     
 re 모듈에서 주로 사용되는 함수는 다음과 같습니다.
     
-    # 정규 표현식을 정규 표현식 객체로 컴파일하여 반환
-    re.compile(pattern, flags=0) 
-    
     # 정규 표현식과 일치하는 문자열을 검색하여, 첫번째로 매칭된 객체 혹은 None을 반환
     re.search(pattern, string, flags=0) # group() 메소드로 매치된 문자열 반환
     
