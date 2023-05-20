@@ -8,4 +8,4 @@
 ## Python에서 정규 표현식의 기본 사용법
 python에서는 re 모듈을 불러와 정규 표현식을 진행할 수 있습니다.
 
-    ``` import re
+    import re
