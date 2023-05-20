@@ -17,12 +17,10 @@ re 모듈에서 주로 사용되는 함수는 다음과 같습니다.
     re.compile(pattern, flags=0) 
     
     # 정규 표현식과 일치하는 문자열을 검색하여, 첫번째로 매칭된 객체 혹은 None을 반환
-    # group() 메소드로 매치된 문자열 반환
-    re.search(pattern, string, flags=0) 
+    re.search(pattern, string, flags=0) # group() 메소드로 매치된 문자열 반환
     
     # 문자열의 처음부터 정규 표현식과 일치하는 패턴을 찾아, 매칭된 객체 혹은 None을 반환
-    # group() 메소드로 매치된 문자열 반환
-    re.match(pattern, string, flags=0) 
+    re.match(pattern, string, flags=0) # group() 메소드로 매치된 문자열 반환
     
     # 정규 표현식과 일치하는 모든 패턴을 찾아 리스트로 반환
     re.findall(pattern, string, flags=0)
